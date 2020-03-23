@@ -1,5 +1,5 @@
 ## Let's Share 
-### the feelings log
+### The Feelings Log
 
 Diclaimer: This project came about with the help of a lot of classmates who helped me debug my code. Thank you to you all!
 
