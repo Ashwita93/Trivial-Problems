@@ -37,9 +37,12 @@ app.post("/add", (request, response) => {
 });
 
 app.get("/display", (request, response) => {
-  const messages = Article.find().exec((err, data) => {
-      response.json(data);
-  });
+  // const messages = Article.find().exec((err, data) => {
+  //     response.json(data);
+  // });
+  const messages = Article.find((err, data) => {
+    response.json(data);
+});
 })
 
 function addArticle(title, content, cb){
