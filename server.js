@@ -20,7 +20,7 @@ db.once('open', function() {
 const Article = require("./articles.js");
 
 
-app.use(express.static("public"));
+app.use(express.static("Public"));
 
 
 app.post("/add", (request, response) => {
@@ -52,8 +52,11 @@ function addArticle(title, content, cb){
   //});
 }
 
-app.listen(3000, () => {
-  console.log("Server is listening on port 3000!");
-});
+// app.listen(3000, () => {
+//   // console.log("Server is listening on port 3000!");
+// });
 
+const port = process.env.PORT || 3000; 
+app.listen(port, () => { console.log(`Express server listening on port ${port}!`); 
+});
 
