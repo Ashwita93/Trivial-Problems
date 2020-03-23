@@ -1,5 +1,4 @@
-## Let's Share 
-### The Feelings Log
+## Let's Share: The Feelings Log
 
 #### The Idea 
 
