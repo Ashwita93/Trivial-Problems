@@ -20,7 +20,7 @@ db.once('open', function() {
 const Article = require("./articles.js");
 
 
-app.use(express.static("Public"));
+app.use(express.static("public"));
 
 
 app.post("/add", (request, response) => {
