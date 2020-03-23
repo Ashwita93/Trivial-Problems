@@ -1,4 +1,9 @@
-## Trivial Problems 
+## Let's Share 
+### the feelings log
 
-Concept: This website is a fun play on keeping the users grounded and aware of the problem happening around them and the world in order to show them perspective of their issues. This works in two ways, keeps people informed of the world's events and at the same time helps them cope up with their problems in a much sympathetic way...or that's what I'm hoping this does. 
+Diclaimer: This project came about with the help of a lot of classmates who helped me debug my code. Thank you to you all!
+
+### The Idea 
+
+The idea behind this project was to record feelings and reactions of people who are currently living the life in fear due to the outbreak of the COVID-19 virus. In this space and time and in uncharted territories, its comforting to know that people are going through the same things. So i created this platform for people to share their thoughts, reactions and feelings and help calm themselves and go through the reactions of other people to know that they are not alone. 
 

@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lets Share | Final project by Ashwita Palekar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    
 </head>
 <body>
-    <h2>Hello and Welcome</h2> 
-    <!-- <input id="title" type="text" placeholder="Enter your Trivial Problem"/>
-    <button id="add-article">Add</button> -->
-    <form id="myform">
-        <label>Add article</label><br>
-        <input type="text" id="title" name="title" placeholder="enter title of article" required>
-        <input type="text" id="content" name="content" placeholder="enter content" required>
-        <input type="submit" value="Add Article">
-    </form>
-    <div id="comments"></div>
+    <div class="flex-container">
+        <div class="row"> 
+            <img src="image.png" width=150>
+            <p class="heading flex-item">Let Share!</p> 
+
+            <p class="caption flex-item">Over the last few weeks as we know it, our world came togehter, unitied to conquer some of the issues it is currently facing while many wonder what can be done and how to fix it, mentally this is taking a toll on everyone’s feelings this is a platform where you can share all your feeling, pour out you fears, your hopes, your feelings. Feel free to browse through what everyone is saying, know that someone out there feels the way you are feeling right now !</p>  
+
+            <form class="flex-item" id="myform">
+                <label>Your Name</label><br>
+                <input class ="nameEntryBox" type="text" id="title" name="title" placeholder="" required>
+                <br>
+                <label>Share your thoughts and feelings</label><br>
+                <textarea class ="feelingEntryBox" rows="4" cols="50" type="text" id="content" placeholder="" required></textarea>
+                <br>
+                <button id="click" type="submit" value="Post">Post</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="display-area">
+        <div id="comments"></div>
+    </div> 
+
     <script src="client.js"></script>
+    <script>
+        $("button").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#comments").offset().top},
+                'slow');
+        });
+    </script>
 </body>
 </html>

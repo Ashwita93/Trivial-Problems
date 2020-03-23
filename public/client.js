@@ -15,7 +15,7 @@ function refreshList() {
         console.log('data', data);
         document.getElementById("comments").innerHTML = '';
         for (let i = data.length - 1; i => 0; i--) {
-            document.getElementById("comments").innerHTML += data[i].title + " says " + data[i].content + " <br/>";
+            document.getElementById("comments").innerHTML += data[i].title + " says <span>" + data[i].content + "</span> <br/>";
         }
     });
 }

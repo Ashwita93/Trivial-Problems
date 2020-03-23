@@ -1,0 +1,101 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin:0% 5%;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    color: #A2A2A2;
+}
+.container{
+    text-align:center;
+    height: 100vh;
+    color:#A2A2A2; 
+    display: flex;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 48px;
+    color:#ABD2FF;
+    
+}
+.caption{
+    color: #A2A2A2;
+    line-height: 26px;
+    font-size: 15px;
+    margin: 0% 20%; 
+}
+
+.flex-container {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item, input, textarea {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding-top:3%;
+}
+
+input[type=text], select, textarea {
+    text-align: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: block; */
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #F5FAFF;
+    
+}
+textarea{
+    width: 50%;
+}
+.feelingEntryBox{
+    height:100px;
+} 
+
+input[type=submit], button {
+    width: 20%;
+    background-color: #54A2FB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font-size:15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+button[type=submit]:hover {
+    background-color: #147EF7;
+}
+
+.display-area{
+    height: 100vh;
+    text-align:center;
+    margin-top:20%;
+}
+span{
+    color:#54A2FB;
+    font-weight: 500;
+}
