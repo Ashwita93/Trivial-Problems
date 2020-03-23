@@ -1,7 +1,7 @@
 ## Let's Share 
 ### The Feelings Log
 
-![Let's Share]("https://github.com/Ashwita93/Trivial-Problems/blob/master/public/favicon.png")
+![Let's Share]("https://github.com/Ashwita93/Trivial-Problems/blob/master/public/image.png")
 
 #### The Idea 
 
