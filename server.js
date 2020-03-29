@@ -19,10 +19,9 @@ db.once('open', function() {
 
 const Article = require("./articles.js");
 
-
 app.use(express.static("public"));
 
-
+//endpoints
 app.post("/add", (request, response) => {
   console.log('request.body', request.body)
   const newTitle = request.body.title;

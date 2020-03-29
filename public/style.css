@@ -2,7 +2,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    margin:0% 5%;
+    /* margin:0% 5%; */
     font-family: 'Open Sans', sans-serif;
     text-align:center;
     color: #A2A2A2;
@@ -98,4 +98,27 @@ button[type=submit]:hover {
 span{
     color:#54A2FB;
     font-weight: 500;
+}
+
+/* mobile css */
+@media only screen and (max-width: 400px) {
+    .flex-container {
+        height: auto !important;
+        margin-top:20%;
+    }
+    .row{
+        height:100vh !important;
+    }
+    .caption{
+        margin:0% 10% !important;
+        font-size:13px;
+        line-height:22px;
+        text-align: justify;
+        height:50vh; 
+    }
+    .display-area{
+        text-align:center;
+        margin-top:90% !important;
+    }
+
 }
